@@ -1,4 +1,4 @@
-## XML 2023 – Project No. 5 (Wine Catalogue)
+## XML 2023 – Project Wine Catalogue
 
 Small XML/XSLT project that models a **wine & winery catalogue** and demonstrates:
 

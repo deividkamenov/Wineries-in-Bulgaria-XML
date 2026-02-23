@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalog (region+)>
+<!ELEMENT region (name, winery+)>
+<!ATTLIST region id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT winery (name, location, year, grapes, description, image, wine+)>
+<!ATTLIST winery id ID #REQUIRED
+                 region IDREF #REQUIRED>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT grapes (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image src ENTITY #REQUIRED
+                style CDATA #REQUIRED>
+<!ELEMENT wine (name, year, grapes, description, image)>
+<!ATTLIST wine id ID #REQUIRED
+               winery IDREF #REQUIRED>
+<!NOTATION JPG SYSTEM "image/jpeg">
+<!ENTITY winery_image1 SYSTEM "./winery_image1.jpg" NDATA JPG>
+<!ENTITY winery_image2 SYSTEM "./winery_image2.jpg" NDATA JPG>
+<!ENTITY winery_image3 SYSTEM "./winery_image3.jpg" NDATA JPG>
+<!ENTITY winery_image4 SYSTEM "./winery_image4.jpg" NDATA JPG> 
+<!ENTITY winery_image5 SYSTEM "./winery_image5.jpg" NDATA JPG>
+<!ENTITY winery_image6 SYSTEM "./winery_image6.jpg" NDATA JPG>
+<!ENTITY winery_image7 SYSTEM "./winery_image7.jpg" NDATA JPG>
+<!ENTITY winery_image8 SYSTEM "./winery_image8.jpg" NDATA JPG> 
+<!ENTITY wine_image1 SYSTEM "./wine_image1.jpg" NDATA JPG>
+<!ENTITY wine_image2 SYSTEM "./wine_image2.jpg" NDATA JPG>
+<!ENTITY wine_image3 SYSTEM "./wine_image3.jpg" NDATA JPG> 
+<!ENTITY wine_image4 SYSTEM "./wine_image4.jpg" NDATA JPG>
+<!ENTITY wine_image5 SYSTEM "./wine_image5.jpg" NDATA JPG>
+<!ENTITY wine_image6 SYSTEM "./wine_image6.jpg" NDATA JPG>
+<!ENTITY wine_image7 SYSTEM "./wine_image7.jpg" NDATA JPG> 
+<!ENTITY wine_image8 SYSTEM "./wine_image8.jpg" NDATA JPG>
+<!ENTITY wine_image9 SYSTEM "./wine_image9.jpg" NDATA JPG> 
+<!ENTITY wine_image10 SYSTEM "./wine_image10.jpg" NDATA JPG> 
+<!ENTITY wine_image11 SYSTEM "./wine_image11.jpg" NDATA JPG>
+<!ENTITY wine_image12 SYSTEM "./wine_image12.jpg" NDATA JPG>
+<!ENTITY wine_image13 SYSTEM "./wine_image13.jpg" NDATA JPG>
+<!ENTITY wine_image14 SYSTEM "./wine_image14.jpg" NDATA JPG> 
+<!ENTITY wine_image15 SYSTEM "./wine_image15.jpg" NDATA JPG>
+<!ENTITY wine_image16 SYSTEM "./wine_image16.jpg" NDATA JPG>
+

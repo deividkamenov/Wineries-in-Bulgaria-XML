@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogueXSLTToPDF.xsl"?>
+<!DOCTYPE catalog SYSTEM "catalogueDTD.dtd">
+<catalog>
+    <region id="region1">
+        <name>Розова долина</name>
+        <winery id="winery1" region="region1">
+            <name>Шато копса</name>
+            <location>с. Мосоковец</location>
+            <year>1998</year>
+            <grapes>шардоне, мускат, совиньон блан, мерло и каберне совиньон, червен мискет</grapes>
+            <description>Една от най-привлекателните дестинации за винен туризъм в сърцето на Розовата долина е Шато
+                Копса. Постройката е умален средновековен замък, в който е вкопана избата. Енолози са Мадлена и Ангел
+                Кузманови. Вината са в елегантна стилистика от шардоне, мускат, совиньон блан, мерло и каберне совиньон.
+                Емблема на избата е финото бяло вино от типичния за Розовата долина сорт червен мискет, което се
+                отличава с деликатен аромат, лека свежест и пи- кантна горчивина.
+            </description>
+            <image src="winery_image1" style="width:800px;height:640px"/>
+            <wine id="wine1" winery="winery1">
+                <name>Chateu Copsa AXL Misket 2021</name>
+                <year>2021</year>
+                <grapes>Карловски мискет</grapes>
+                <description>Моног блед, прозрачен цвят с гнланц. Ароматът е въздържан, долавят се нотки на барут,
+                    сушени билки и кайсия с костилка.
+                </description>
+                <image src="wine_image1" style="width:800px;height:640px"/>
+            </wine>
+            <wine id="wine2" winery="winery1">
+                <name>Chateau Copsa 8TH Merlot and Cabernet Sauvignon 2015</name>
+                <year>2015</year>
+                <grapes>Каберне совиньон</grapes>
+                <description>Красив, запазен рубинен цвят. Ефектен, елегантен нос с нотки на екзотични цветя, теменужки,
+                    черни боровинки и боров мед. Гладко, фино тяло със забележителни, зрели, сатенени танини и "гъвкави"
+                    киселини. Вино с прекрасна структура, обем, хармония и потенциал.
+                </description>
+                <image src="wine_image2" style="width:800px;height:640px" />
+            </wine>
+        </winery>
+    </region>
+    <region id="region2">
+        <name>Северозападен район</name>
+        <winery id="winery2" region="region2">
+            <name>Типченица</name>
+            <location>с. Типченица</location>
+            <year>2005</year>
+            <grapes>мискет, шардоне, каберне совиньон, рубин</grapes>
+            <description>Село Типченица е разположено живописно в хълмистия Северозапад, а над него, в обитавана от диви
+                животни и птици местност, са лозята на едноименната изба. Още в епохата на Османската империя оттук са
+                тръгвали товари с грозде към София. През социализма селото е било важен център за производство на лозов
+                посадъчен материал.
+            </description>
+            <image src="winery_image2" style="width:800px;height:640px" />
+            <wine id="wine3" winery="winery2">
+                <name>Tipchenitza Winery Rubin Oak Barrel 2020</name>
+                <year>2020</year>
+                <grapes>Рубин</grapes>
+                <description>Чист и красив рубиненочервен цвят. Атрактивен нос с карамелени нотки, зряла арония, цветя,
+                    вишновка. Следно тяло, свежо и сочно, с нотки на шоколад и плодове в ликьор и кафе.Добра дължина.
+                </description>
+                <image src="wine_image3" style="width:800px;height:640px" />
+            </wine>
+            <wine id="wine4" winery="winery2">
+                <name>Tipchenitza Winery Tochka Sauvignon Blanc 2019</name>
+                <year>2019</year>
+                <grapes>Совиньон блан</grapes>
+                <description>Виното е с интензивни аромати с тонове на зелена трева, бръшлян, люляк, лимон... Подчертано
+                    свежо, с повтарящи се вкусове от аромата и нотки на лимонова семка плюс лека парливост на финала.
+                </description>
+                <image src="wine_image4" style="width:800px;height:640px"/>
+            </wine>
+        </winery>
+    </region>
+    <region id="region3">
+        <name>Дунавска равнина</name>
+        <winery id="winery3" region="region3">
+            <name>Винпром Свищов</name>
+            <location>Свищов</location>
+            <year>1948</year>
+            <grapes>Каберне Совиньон, Каберне Фран, Мерло, Шардоне, Мускат, Траминер и Совиньон Блан</grapes>
+            <description>Винпром Свищов е наследник на изба с над 70-годишна история. Винарната е сред
+                основоположниците на вино културата в България, както и една от първите изби, стартирали
+                производството на розе в страната. Годишното производство на вино възлиза на над 2 милиона литра.
+            </description>
+            <image src="winery_image3" style="width:800px;height:640px"/>
+            <wine id="wine5" winery="winery3">
+                <name>Imperium Chardonnay and Sauvignon Blanc 2015</name>
+                <year>2015</year>
+                <grapes>шардоне и совиньон блан</grapes>
+                <description>Интензивен цвят - злато с лимонени оттенъци. Много интензивен и елегантен нос с нотки на
+                    зелена маслина с бадем, сладък тропически плод, липов цвят и мокър камък. Обло, сочно и въздействащо
+                    с нотки на стафида и зелени маслини едновремеменно, контрастно и елегантно до края на вкуса. Дълго и
+                    благородно с послевкус на липа.
+                </description>
+                <image src="wine_image5" style="width:800px;height:640px"/>
+            </wine>
+            <wine id="wine6" winery="winery3">
+                <name>Gorchivka Merlot 2016</name>
+                <year>2016</year>
+                <grapes>мерло</grapes>
+                <description>Искрящ, рубинено червен цвят. Елегантен нос с нотки на зрели вишни и череши, фин минерален
+                    тон и землисти акценти. Средно тяло, гъвкаво и живо с фин, средно продължителен финал.
+                </description>
+                <image src="wine_image6" style="width:800px;height:640px"/>
+            </wine>
+        </winery>
+    </region>
+    <region id="region4">
+        <name>Южен черноморски район</name>
+        <winery id="winery4" region="region4">
+            <name>Винпром Карнобат</name>
+            <location>с. Церковски</location>
+            <year>1984</year>
+            <grapes>Мавруд, Мерло, Кабърне, Купаж, Сирах, Рубин</grapes>
+            <description>Разположен в плодородната Карнобатска котловина, десетилетия наред Винпром Карнобат създава
+                вина, утвърдили се в България и света. Компанията разполага с най-големите собствени лозя у нас – над
+                2000 ха. Сортовете са разнообрази: червен мискет, мускат отонел, памид, ркацители, димят, совиньон блан,
+                траминер, сира, каберне совиньон, мерло, пино ноар, каберне фран и други. Винарната разполага с модерна
+                производствена база, с най-големия капацитет на Балканите, с възможност за преработка на над 30 млн кг
+                грозде годишно.
+            </description>
+            <image src="winery_image4" style="width:800px;height:640px"/>
+            <wine id="wine7" winery="winery4">
+                <name>Chateau Karnobat Mavrud 2017</name>
+                <year>2017</year>
+                <grapes>мавруд</grapes>
+                <description>Цветът е бистър, наситено рубинен. Зрял нос с къпина и вишна, какао и вишневи листа. Свежо,
+                    сочно и хармонично.
+                </description>
+                <image src="wine_image7" style="width:800px;height:640px"/>
+            </wine>
+            <wine id="wine8" winery="winery4">
+                <name>Ethno Syrah Rubin 2017</name>
+                <year>2017</year>
+                <grapes>купаж</grapes>
+                <description>Цветът е интензивен рубин. Атрактивен и чист плодов нос с череши и червени боровинки, със
+                    средна структура и балансирана свежест. Спокоен, хармоничен финал.
+                </description>
+                <image src="wine_image8" style="width:800px;height:640px"/>
+            </wine>
+        </winery>
+    </region>
+    <region id="region5">
+        <name>Долината на Струма</name>
+        <winery id="winery5" region="region5">
+            <name>Вила Мелник</name>
+            <location>с. Хърсово</location>
+            <year>2013</year>
+            <grapes>Широка мелнишка лоза, Мелник 55, Руен, Мавруд, Тамянка, Керацуда, Сандански мискет</grapes>
+            <description>Вила Мелник е малка семейна винарна. Намира се до с. Хърсово, на 6 км от гр. Мелник. Притежава
+                300 дка собствени лозя, които се отглеждат с много внимание. Водещи са местните сортове – широка
+                мелнишка лоза, мелник 55, руен, мавруд, тамянка, керацуда, сандански мискет. От класическите
+                международни сортове са засадени каберне совиньон, мерло, сира, пино ноар, санджовезе, шардоне, вионие,
+                совиньон блан.
+            </description>
+            <image src="winery_image5" style="width:800px;height:640px"/>
+            <wine id="wine9" winery="winery5">
+                <name>Villa Melnik Rare Varietes Shiroka Melnik 2018</name>
+                <year>2018</year>
+                <grapes>широка мелнишка лоза</grapes>
+                <description>Наситен тъмно рубинен цвят. Богат нос с нотки на сушени домати, печени плодове, печено
+                    месо, тиква и кестени. Средно тяло с нотки на сладки подправки и печени плодове. Елегантно и
+                    благородно, сухо във финала. Отлично за пиене в момента.
+                </description>
+                <image src="wine_image9" style="width:800px;height:640px"/>
+            </wine>
+            <wine id="wine10" winery="winery5">
+                <name>Villa Melnik Rare Varietes Ruen 2015</name>
+                <year>2015</year>
+                <grapes>руен</grapes>
+                <description>Красив и бистър рубинен цвят. Сложен нос с нотки на евкалипт, кедрово дърво, сладък червен
+                    пипер, сочни къпини и папрат. Стройно, стегнато и много елегантно тяло с отличен финал и дължина.
+                    Благородно, забележително вино с характер.
+                </description>
+                <image src="wine_image10" style="width:800px;height:640px"/>
+            </wine>
+        </winery>
+    </region>
+    <region id="region6">
+        <name>Сакар</name>
+        <winery id="winery6" region="region6">
+            <name>Кастра Рубра</name>
+            <location>с. Коларово</location>
+            <year>2008</year>
+            <grapes>Каберне совиньон, Мерло, Каберне фран, Пино ноар, Аликант буше, Пти вердо, Сира, Шардоне, Совиньон
+                блан
+            </grapes>
+            <description>Кастра Рубра е емблематична изба не само за региона на Южен Сакар, но и за модерното българско
+                вино въобще. Уникална като архитектура, концепция, оборудване и изпълнение, винарната е единствената у
+                нас, която работи с най-известния летящ винар в света – Мишел Ро- лан.
+            </description>
+            <image src="winery_image6" style="width:800px;height:640px"/>
+            <wine id="wine11" winery="winery6">
+                <name>Castra Rubra Dominant Cabernet Sauvignon Syrah 2012</name>
+                <year>2012</year>
+                <grapes>купаж</grapes>
+                <description>Много плътен, интензивен рубинен цвят. Класически нос с черни, зрели плодове, мастило и
+                    катран. Сочен вкус, заоблен с мощно, стегнато тяло и отлични, зрели танини. Дълго и благородно вино.
+                </description>
+                <image src="wine_image11" style="width:800px;height:640px"/>
+            </wine>
+            <wine id="wine12" winery="winery6">
+                <name>Castra Rubra Butterfly’s Rock Single Vineyard 2010</name>
+                <year>2010</year>
+                <grapes>купаж</grapes>
+                <description>Блендът е Merlot Cabernet Sauvignon Cabernet Franc Syrah. Цветът е жив, много
+                    интензивен гранат. Многопластов, благороден нос, в който веднага се разкриват фини нотки на ликорис
+                    и мента, заедно с добре съхранени, зрели горски плодове, кожа, какао, масло и мока, печени червени
+                    чушки и сладки подправки. Великолепна, пищна структура с кадифено зрели танини и елегатен, деликатно
+                    минерален финал. Забележителен потенциал за отлежаване.
+                </description>
+                <image src="wine_image12" style="width:800px;height:640px"/>
+            </wine>
+        </winery>
+    </region>
+    <region id="region7">
+        <name>Източна тракийска низина</name>
+        <winery id="winery7" region="region7">
+            <name>Вила Ямбол</name>
+            <location>Ямбол</location>
+            <year>1924</year>
+            <grapes>Мавруд, Мерло, Кабърне совиньон, Сира, Шираз, Шердоне</grapes>
+            <description>Вила Ямбол пази традициите на винопроизводството от далечната 1924 година и днес се счита за
+                най-старата изба в Южна България. Производителят притежава близо 900 ха собствени лозови масиви. Вила
+                Ямбол е сред най-успешните износители на качествено българското вино, като експортните й позиции
+                включват над 20 държави от целия свят, в това число Япония, САЩ, Китай, Сингапур, ОАЕ и други.
+            </description>
+            <image src="winery_image7" style="width:800px;height:640px"/>
+            <wine id="wine13" winery="winery7">
+                <name>Villa Yambol Kabile Syrah Reserve 2015</name>
+                <year>2015</year>
+                <grapes>сира/шираз</grapes>
+                <description>Плътен цвят – тъмен гранат. На нос се долавя благородно развитие с акценти на кожа,
+                    ликьорени нотки, печена чушка, арония и череша. Средно тяло, гладко и стопено, с деликатен, много
+                    ефирен, но дълъг и благороден финал. Много добро развитие, в топ форма да се пие в момента.
+                </description>
+                <image src="wine_image13" style="width:800px;height:640px"/>
+            </wine>
+            <wine id="wine14" winery="winery7">
+                <name>Villa Yambol Brut Blanc de Blanc 2015</name>
+                <year>2015</year>
+                <grapes>шардоне</grapes>
+                <description>Наситен златист цвят, мусът е със средни перли и дълга игра в чашата. Комплексен нос с
+                    изобилие от препечен хляб с масло, ванилия, дим и английски бонбон тофи. Средно тяло с опушен финал
+                    и дълъг спомен за кроасан с масло и ванилия.
+                </description>
+                <image src="wine_image14" style="width:800px;height:640px"/>
+            </wine>
+        </winery>
+    </region>
+    <region id="region8">
+        <name>Западна тракийска низина</name>
+        <winery id="winery8" region="region8">
+            <name>Винзавод Асеновград</name>
+            <location>Асеновград</location>
+            <year>1962</year>
+            <grapes>Мавруд</grapes>
+            <description>Шестдесет години Винзавод Асеновград създава новата слава на старото българско вино от мавруд.
+                Малко от нас знаят, че МАВРУД е сорт, който носи името на млад и смел воин, който спасил в битка живота
+                на хан Тервел. Той черпел силата и смелостта си от вълшебното вино, за чудните свойства на което знаели
+                защитниците на Асеновата крепост, и дори рицарите от времето на Четвъртия кръстоносен поход.
+            </description>
+            <image src="winery_image8" style="width:800px;height:640px"/>
+            <wine id="wine15" winery="winery8">
+                <name>Мавруд Резерва</name>
+                <year>2021</year>
+                <grapes>Мавруд</grapes>
+                <description>Притежава наситен рубиненочервен до червен цвят. Активен нос - съчетание от сортовия
+                    маврудов с ароматите на извлечени от бъчвите карамфил, лактон, ванилия и подправки. Вкусово е
+                    плътно, закръглено с добра дължина. Вкусовият аромат е траен и впечатляващ.
+                </description>
+                <image src="wine_image15" style="width:800px;height:640px"/>
+            </wine>
+            <wine id="wine16" winery="winery8">
+                <name>Мавруд Асеновград</name>
+                <year>2022</year>
+                <grapes>Мавруд</grapes>
+                <description>Вино с рубинено червен цвят, комплексен сортов аромат съчетание на зряла вишна, къпина и
+                    горски плодове. Вкусово е меко с приятна сладост характерна за добре узряло грозде, обемно с добра
+                    дължина и траен вкусов аромат.
+                </description>
+                <image src="wine_image16" style="width:800px;height:640px"/>
+            </wine>
+        </winery>
+    </region>
+</catalog>
